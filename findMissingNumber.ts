@@ -1,3 +1,11 @@
+// As we expect an array with sequent integers, i decided to check some potential issues below
+// Then we return a missing member if the difference between pairs of numbers !== 1.
+//
+// We can extend the function if we need it in cases: 
+// * numbers aren't only integers
+// * the step between numbers is different from 1
+// But here it may be redundant, in depends on context
+
 export const findMissingNumber = (array: number[]) => {
 
   //if the array is empty
